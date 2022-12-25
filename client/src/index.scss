@@ -1,0 +1,65 @@
+$theme-green: #50ff27;
+$theme-black: #000000;
+$theme-body-light-green: #eeffea;
+
+body{
+    background: $theme-body-light-green;
+    //background: red;
+}
+
+.submit-filter-button{
+    margin: 10px 0 0 0;
+    background: $theme-green;
+    border: none;
+    color: $theme-black;
+    height: 36px;
+    width: 164px;
+    border-radius: 5px;
+
+    transition-duration: 0.25s;
+    
+
+    &:hover{
+        background: $theme-black;
+        color: $theme-green;
+        border: 2px solid $theme-green;
+    }
+}
+
+.delete-filter-button{
+    margin: 10px 0 0 0;
+    background: $theme-black;
+    border: none;
+    color: $theme-green;
+    height: 36px;
+    width: 164px;
+    border-radius: 5px;
+
+    transition-duration: 0.25s;
+    
+
+    &:hover{
+        background: $theme-green;
+        color: $theme-black;
+        border: 2px solid $theme-black;
+    }
+}
+
+.main-product-div{
+    width: calc(25% - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 5px 10px;
+    padding: 10px;
+    background: #eeffea;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 1px #50ff27;
+    cursor: pointer;
+}
+
+.main-main-page-div{
+    height: 100vh;
+    background-image: -webkit-linear-gradient(top, $theme-green, rgb(255, 255, 255));
+}
